@@ -1,17 +1,53 @@
-.card-list{
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-gap:20px;
+body{
+	background-image: linear-gradient(to right top, #845ec2, #e65faa, #ff8080, #ffbb61, #f9f871);
+}
+@font-face{
+	font-family: 'caveman';
+	src: local('cavemane'), url('caveman.woff') format('woff');
+	text-shadow: 1px 1px 1px #000,
+}
+.main>h1{
+	font-family: caveman;
+	color: red;
+	font-size: 1.8em;
+	text-shadow: 2px 1px black;
+}
+.search-box{
+	padding: 20px;
+}
+.search-box input{
+	padding: .700rem .75rem;
+	font-size: 1rem;
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	width: 260px;
+}
+.main{
+	text-align: center;
 	padding: 10px;
 }
+.card-list{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap:20px;
+	grid-template-rows: auto;
+	justify-items: center;
+
+
+}
 .card{
+	max-width: 260px;
 	border-radius: 10px;
 	background-color: tomato;
 	padding: 10px;
 	text-align: center;
-	transition: all 1s;
+	box-shadow: 0 7px 14px rgba(0,0,0,0.9);
+	transition: transform .25s ease-out;
 }
-
+.card img{
+	width: 100%;
+}
 .card:hover{
 	transform: scale(1.05);
 }

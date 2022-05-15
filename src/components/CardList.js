@@ -7,10 +7,10 @@ const CardList = ({ robots }) => {
 				{
 					robots.map((robot, i) => (
 						<Card 
-							key={i} 
-							id={robot.id} 
-							name={robot.name} 
-							email={robot.email}
+							key={ i } 
+							id={ robot.id } 
+							name={ robot.name } 
+							email={ robot.email }
 						/>)
 					) 
 				}
