@@ -6,7 +6,7 @@ body{
 	src: local('cavemane'), url('caveman.woff') format('woff');
 	text-shadow: 1px 1px 1px #000,
 }
-.main>h1{
+.main h1{
 	font-family: caveman;
 	color: red;
 	font-size: 1.8em;
