@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/robofriend/static/css/main.d6e2af5e.css",
-    "main.js": "/robofriend/static/js/main.e5c2be1e.js",
+    "main.js": "/robofriend/static/js/main.d7ed5ad8.js",
     "static/media/caveman.woff": "/robofriend/static/media/caveman.59b77e06c9d7a5bec301.woff",
     "index.html": "/robofriend/index.html",
     "main.d6e2af5e.css.map": "/robofriend/static/css/main.d6e2af5e.css.map",
-    "main.e5c2be1e.js.map": "/robofriend/static/js/main.e5c2be1e.js.map"
+    "main.d7ed5ad8.js.map": "/robofriend/static/js/main.d7ed5ad8.js.map"
   },
   "entrypoints": [
     "static/css/main.d6e2af5e.css",
-    "static/js/main.e5c2be1e.js"
+    "static/js/main.d7ed5ad8.js"
   ]
 }
