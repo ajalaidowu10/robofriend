@@ -4,7 +4,8 @@ body{
 @font-face{
 	font-family: 'caveman';
 	src: local('cavemane'), url('caveman.woff') format('woff');
-	text-shadow: 1px 1px 1px #000,
+	text-shadow: 1px 1px 1px #000;
+	font-display: swap;
 }
 .main h1{
 	font-family: caveman;
@@ -47,6 +48,7 @@ body{
 }
 .card img{
 	width: 100%;
+	height: auto;
 }
 .card:hover{
 	transform: scale(1.05);
